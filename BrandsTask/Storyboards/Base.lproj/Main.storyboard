@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CKd-bC-NDR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Brands View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="BrandsViewController" id="BYZ-38-t0r" customClass="BrandsViewController" customModule="BrandsTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="P0B-ke-pz1">
+                                <rect key="frame" x="0.0" y="138" width="414" height="674"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P0B-ke-pz1" secondAttribute="trailing" id="Fak-Td-Vti"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P0B-ke-pz1" secondAttribute="bottom" constant="50" id="Pvn-t2-GgU"/>
+                            <constraint firstItem="P0B-ke-pz1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TWP-rf-ee6"/>
+                            <constraint firstItem="P0B-ke-pz1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="yxO-Gp-WJp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FGW-li-iGd"/>
+                    <connections>
+                        <outlet property="brandsTableView" destination="P0B-ke-pz1" id="Ppb-Cn-WuK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="109.82142857142857"/>
+        </scene>
+        <!--Car Models View Controller-->
+        <scene sceneID="Gxn-aq-0uO">
+            <objects>
+                <viewController storyboardIdentifier="CarModelsViewController" id="Lfx-Vz-fX0" customClass="CarModelsViewController" customModule="BrandsTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fak-n8-iQ9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SQP-MY-yVs">
+                                <rect key="frame" x="0.0" y="94" width="414" height="718"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="oEN-12-vBU" firstAttribute="trailing" secondItem="SQP-MY-yVs" secondAttribute="trailing" id="ROa-AC-aCG"/>
+                            <constraint firstItem="oEN-12-vBU" firstAttribute="bottom" secondItem="SQP-MY-yVs" secondAttribute="bottom" constant="50" id="hyv-Ly-dAl"/>
+                            <constraint firstItem="SQP-MY-yVs" firstAttribute="leading" secondItem="oEN-12-vBU" secondAttribute="leading" id="qZA-Qm-7Tk"/>
+                            <constraint firstItem="SQP-MY-yVs" firstAttribute="top" secondItem="oEN-12-vBU" secondAttribute="top" constant="50" id="rd1-dX-LfS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oEN-12-vBU"/>
+                    </view>
+                    <connections>
+                        <outlet property="carModelsTableView" destination="SQP-MY-yVs" id="VWP-RG-uQZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ng-E8-pjw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795.6521739130437" y="109.82142857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aNF-fP-HFN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CKd-bC-NDR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bwS-Vk-fdV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8m2-oL-g61"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gp8-bu-aBM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+        <!--Branches Map View Controller-->
+        <scene sceneID="egF-l8-PMA">
+            <objects>
+                <viewController storyboardIdentifier="BranchesMapViewController" id="tQn-30-3cB" customClass="BranchesMapViewController" customModule="BrandsTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qta-f1-ebY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="eZd-48-qEz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="884"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="tQn-30-3cB" id="uUp-ss-ELV"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="hro-Ni-53t"/>
+                    </view>
+                    <connections>
+                        <outlet property="branchesMapView" destination="eZd-48-qEz" id="ggy-Qr-f8X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQM-bu-G4o" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524.6376811594205" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>

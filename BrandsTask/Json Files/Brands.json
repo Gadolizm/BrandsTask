@@ -1,0 +1,125 @@
+{
+  "Brands": [
+    {
+      "Name": "OPEL",
+      "Logo": "https://www.carlogos.org/logo/Opel-logo-2009-1920x1080.png",
+      "Car Models": [
+        {
+          "Model Name": "Vauxhall Astra",
+          "Branches": [
+            {
+              "Name": "Abaza Auto Trade",
+              "Address": "S El-Teseen St,First New Cairo, Cairo Governorate",
+              "latitude": 30.016828,
+              "longitude": 31.411651
+            },
+            {
+              "Name": "Budget",
+              "Address": "International Airport, Marsa Alam Desert, Red Sea Governorate",
+              "latitude": 25.158006,
+              "longitude": 33.806654
+            }
+          ]
+        },
+        {
+          "Model Name": "Opel Corsa",
+          "Branches": [
+            {
+              "Name": "Europcar Marsa Alam - Egypt",
+              "Address": "Marsa Alam International Airport (RMF), Marsa Alam, Red Sea Governorate 00000",
+              "latitude": 25.605204,
+              "longitude": 34.594667
+            },
+            {
+              "Name": "MINI Egypt",
+              "Address": "Katameya Exhibition, Third New Cairo, Cairo Governorate",
+              "latitude": 29.993324,
+              "longitude": 31.385647
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "BMW",
+      "Logo": "https://www.carlogos.org/logo/BMW-logo-2000-2048x2048.png",
+      "Car Models": [
+        {
+          "Model Name": "BMW Z4 Roadster",
+          "Branches": [
+            {
+              "Name": "MINI Egypt",
+              "Address": "Katameya Exhibition, Third New Cairo, Cairo Governorate",
+              "latitude": 29.993324,
+              "longitude": 31.385647
+            },
+            {
+              "Name": "Europcar Hurghada",
+              "Address": "Sheraton Rd., In Front Of Hsbc Bank Egypt, First Hurghada, Hurghada 84517",
+              "latitude": 27.270901,
+              "longitude": 33.765269
+            }
+          ]
+        },
+        {
+          "Model Name": "BMW M2 Coupé",
+          "Branches": [
+            {
+              "Name": "Ghabour Hyundai",
+              "Address": "Nasr City, Cairo Governorate",
+              "latitude": 29.99258,
+              "longitude": 31.383686
+            },
+            {
+              "Name": "Europcar Luxor - Egypt",
+              "Address": "Luxor International Airport (LXR), Monshaat Al Amari, Luxor, Luxor Governorate 85955",
+              "latitude": 25.769777,
+              "longitude": 32.721953
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "VW",
+      "Logo": "https://www.carlogos.org/logo/Volkswagen-logo-2015-1920x1080.png",
+      "Car Models": [
+        {
+          "Model Name": "Volkswagen Amarok",
+          "Branches": [
+            {
+              "Name": "Abaza Auto Trade",
+              "Address": "S El-Teseen St,First New Cairo, Cairo Governorate",
+              "latitude": 30.016828,
+              "longitude": 31.411651
+            }
+          ]
+        },
+        {
+          "Model Name": "Volkswagen Arteon",
+          "Branches": [
+            {
+              "Name": "Europcar Luxor - Egypt",
+              "Address": "Luxor International Airport (LXR), Monshaat Al Amari, Luxor, Luxor Governorate 85955",
+              "latitude": 25.769777,
+              "longitude": 32.721953
+            },
+            {
+              "Name": "Ghabour Hyundai",
+              "Address": "Nasr City, Cairo Governorate",
+              "latitude": 29.99258,
+              "longitude": 31.383686
+            },
+            
+            {
+              "Name": "Europcar Hurghada",
+              "Address": "Sheraton Rd., In Front Of Hsbc Bank Egypt, First Hurghada, Hurghada 84517",
+              "latitude": 27.270901,
+              "longitude": 33.765269
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
